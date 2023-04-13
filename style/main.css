@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-variant-numeric: lining-nums; 
+    -moz-font-feature-settings: "lnum";
+    -webkit-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 25px 0 17px 0;
+    border-bottom: 1px solid #DDDEDF;
+}
+
+.navigate>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigate__item {
+    list-style-type: none;
+    margin-right: 65px;
+    font-size: 16px;
+    color: black;
+}
+.navigate__item > a:hover {
+    color: #C6A23F;
+}
+
+.navigate__item:last-child {
+    margin-right: 0;
+}
+
+.adress {
+    font-size: 16px;
+    color: #202529;
+    opacity: 0.6;
+}
+.headerLogo {
+    display: flex;
+    margin-top: 22px;
+}
+.logo {
+    margin-right: 20px;
+}
+.header__info {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.header_text {
+    font-size: 30px;
+    color: #202529;
+}
+.phone__number {
+    display: flex;
+    font-weight: 700;
+}
+.phone {
+    display: flex;
+}
+.phone>.phone__number:first-child {
+    margin-right: 20px;
+}
+.phone__number::before {
+    content: "";
+    background-image: url(../img/phone.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
