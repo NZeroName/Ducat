@@ -95,3 +95,50 @@ ul {
     height: 20px;
     margin-right: 7px;
 }
+.header__info_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.social{
+    margin-bottom: 20px;
+}
+.main {
+    margin-top: 20px;
+}
+.toggleButtons {
+    display: flex;
+}
+.individualFurnitur{
+    padding: 31.5px 93.5px;
+    width: 100%;
+    background-color: #202529;
+    border: 1px solid #202529;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Mulish;
+    white-space: nowrap;
+}
+.businessFurnitur{
+    padding: 31.5px 180px;
+    width: 100%;
+    padding: 31.5px 93.5px;
+    width: 100%;
+    background-color: #F3F5F6;
+    border: 1px solid #F3F5F6;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #202529;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Mulish;
+    white-space: nowrap;
+}
